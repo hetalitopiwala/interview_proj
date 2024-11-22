@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+
+  padding: 24px 80px 24px 80px;
+  gap: 0px;
+  justify: space-between;
+  opacity: 0px;
+  background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);
+
+}
+
+.nav-item {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35.2px;
+  color: #78350F;
+
+}
+
+.nav-item-sub {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #78350F;
+
+}
+
+.home-collectible {
+  /* width: 1440px;
+  height: 583px; */
+  padding: 80px;
+  gap: 80px;
+ 
+}
+.home-img{
+  /* background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%); */
+  background: inherit;
+  background-image: url('images/Rectangle.png');
+}
+.home-coll-heading {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 79.2px;
+  color: #0F172A;
+
+}
+
+.home-coll-sub-heading {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #0F172A;
+  text-align: left;
+
+}
+
+.home-btn-color {
+  border-color: #78350F;
+  border-radius: 8px;
+  border: solid 2px #78350F;
+  color: #78350F;
+  padding: 16px;
+  text-align: left
+}
+
+.left-align {
+  text-align: left;
+  margin-top: 16px;
+}
+
+.image-shoes {
+  width: 320px;
+  height: 291px;
+  /* margin-top: 80px; */
+  /* margin-left: 874px; */
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.card-container {
+  margin-top: 30px;
+  /* padding:80px;
+  gap:80px; */
+}
+
+.card-de{
+  background:inherit;
+  border:none;
+  text-align: left;
+}
+
+.card-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #0F172A;
+  text-align: left;
+}
+.card-body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #0F172A;
+  text-align: left;
+  padding:1px;
+}
+
+.home-icon{
+  color:#78350F;
+  width : 12.62px;
+  height:20px;
+
+}
+.home-icon-img{
+
+  height: 20px;
+  width: 20px;
+  /* margin-top: 0px; */
+  position: absolute;
+  /* top: -6px; */
+  left: 8px;
+}
+.section-2{
+  padding: 80px;
+  background-color: #0F172A;
+  color:#E2E8F0;
+}
+.section-2-title{
+  color:#FFFFFF;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size:46px;
+  text-align: left;
+}
+.backlights{
+  background-image: url('./images/Backlights.png');
+  background-position: center;
+}
+.section-2-card{
+  border: 1px solid #0F172A;
+  background-color: #0F172A;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); Strong shadow */
+  /* box-shadow: rgba(255, 255, 255, 0.18) Strong shadow */
+  box-shadow: 0 4px 10px #FFFFFF12;  
+}
